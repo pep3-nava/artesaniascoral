@@ -1,0 +1,334 @@
+/* movil */
+@media (min-width: 400px) and (max-width: 600px) {
+  html {
+    width: 99%;
+  }
+
+  #header {
+    width: 99%;
+  }
+
+  center {
+    width: 99%;
+  }
+}
+
+
+/* tablet  */
+@media (min-width: 601px) and (max-width:990px) {
+
+  body  {
+    display: flexbox;
+    }
+}
+
+/* desktop */
+
+@media (min-width: 991px) and (max-width: 1466) {
+  body {
+    width: 99%;
+    display : flexbox
+  }
+  
+  center {
+    width: 99%;
+    display:flexbox;
+  }
+}
+
+ 
+@media screen and (min-width: 600px) {
+
+  html {
+    width: 99%;
+  }
+}
+
+#header {
+  background-image: url(../src/img/descarga.jpeg);
+  background-size: contain;
+  margin-top: -9px;
+  /* margin-left: -8px; */
+  /* margin-right: -8px; */
+  display: flexbox;
+}
+
+
+
+body {
+  background: rgb(0, 0, 0);
+}
+
+.titulo {
+  color: white;
+  text-align: left;
+  margin-right: 10px;
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+.kntc {
+  margin-top: -100px;
+  text-align: right;
+  margin-bottom: 10px;
+}
+
+.btn1:hover,
+.btn:focus {
+  cursor: pointer;
+  -webkit-animation: pulse 1.5s;
+  animation: pulse 1.5s;
+  box-shadow: 0 0 0 2em transparent;
+  transform: translateY(-1em);
+  animation: translateY(-1em);
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+@keyframes no21 {
+  from {
+    box-shadow: 0 0 0 2px gold;
+  }
+
+  to {
+    box-shadow: 0 0 0 1px gold;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 var(--hover);
+  }
+}
+
+ 
+
+.btn1 {
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  border-radius: 25px;
+  background-color: silver;
+  padding-bottom: 10px;
+  padding-top: 4px;
+  padding-left: 4px;
+  padding-right: 4px;
+  border-color: black;
+  border-style: dashed;
+  --color: pink;
+  --hover: pink;
+}
+
+
+
+@font-face {
+  font-family: btn;
+  src: url(../src/fots/Baiser-Italic.ttf);
+}
+
+.btn {
+  color: black;
+  font-size: 30px;
+  text-decoration: none;
+  font-family: btn;
+}
+
+div.presentacion {
+  object-position: center;
+  float: i;
+  object-position: right;
+}
+
+.immg {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  height: 600px;
+  width: 600px;
+  display: grid;
+  gap: 10px;
+}
+
+@font-face {
+  font-family: co;
+  src: url(../src/fots/Mythology\ Of\ Egypt.otf);
+}
+
+.encb {
+  font-size: 55px;
+  text-align: center;
+  color: transparent;
+  font-family: bold, co;
+}
+
+h1.encb:hover {
+  color: black;
+}
+
+@font-face {
+  font-family: hh;
+  src: url(../src/fots/Smasher\ 312\ Custom.ttf);
+}
+
+.hh {
+  text-align: center;
+  font-size: 46px;
+  color: cyan;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  font-family: hh;
+}
+
+
+#todo {
+  display: grid;
+  gap: 8px;
+  grid-template-rows: repeat(auto-fit, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  /* height: 900px; */
+  /* width: 99%; */
+  /* margin-left: 20px; */
+}
+
+@keyframes no1 {
+  to {
+    background-position: 50vw;
+
+  }
+
+}
+
+.no1 img,
+.no2 img,
+.no3 img {
+  margin-left: 25px;
+  margin-right: 25px;
+  margin-top: 40px;
+  width: 300px;
+}
+
+.no1 {
+  width: 350px;
+  height: 700px;
+  border: cyan 5px double;
+  margin-left: 45px;
+  /* margin-right: 40px; */
+  margin-bottom: 50px;
+  margin-top: 50px;
+  cursor: pointer;
+  animation: no21 1s infinite reverse;
+}
+
+.no2 {
+  width: 350px;
+  height: 700px;
+  border: cyan 5px double;
+  margin-left: 35px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  /* margin-right: 35px; */
+  cursor: pointer;
+  animation: no21 1s infinite reverse;
+}
+
+.no3 {
+  border: cyan 5px double;
+  width: 350px;
+  height: 700px;
+  margin-left: 20px;
+  /* margin-right: 90px; */
+  margin-top: 50px;
+  margin-bottom: 50px;
+  cursor: pointer;
+  animation: no21 1s infinite reverse;
+}
+
+.no1:hover,
+.no1:focus {
+  border-radius: 30px;
+  border-color: silver;
+  border-style: solid;
+  background: linear-gradient(to left,
+      red,
+      white,
+      green);
+  animation: no1 3s infinite reverse;
+  -webkit-transform: translateY(1em);
+  transform: translateY(1em);
+  box-shadow: 0 0 0 5px silver;
+}
+
+.no2:hover,
+.no2:focus {
+  border-radius: 30px;
+  border-color: silver;
+  border-style: solid;
+  background: linear-gradient(to left,
+      red,
+      white,
+      green);
+  animation: no1 3s infinite reverse;
+  -webkit-transform: translateY(1em);
+  transform: translateY(1em);
+  box-shadow: 0 0 0 5px silver;
+}
+
+.no3:hover,
+.no3:focus {
+  border-radius: 30px;
+  border-color: silver;
+  border-style: solid;
+  background: linear-gradient(to left,
+      red,
+      white,
+      green);
+  animation: no1 3s infinite reverse;
+  -webkit-transform: translateY(1em);
+  transform: translateY(1em);
+  box-shadow: 0 0 0 5px silver;
+}
+
+.no1:active {
+  background: transparent;
+  border-color: greenyellow;
+}
+
+.no2:active {
+  background: transparent;
+  border-color: greenyellow;
+}
+
+.no3:active {
+  background: transparent;
+  border-color: greenyellow;
+}
+
+.no1,
+.no2,
+.no3,
+h1 {
+  font-size: 30px;
+  color: deeppink;
+  text-align: center;
+}
+
+.no1,
+.no2,
+.no3,
+p {
+  font-size: 15px;
+  color: dodgerblue;
+  text-align: center;
+}
+
+.no1,
+.no2,
+.no3,
+h3 {
+  font-size: 18px;
+  color: red;
+  text-align: center;
+}
